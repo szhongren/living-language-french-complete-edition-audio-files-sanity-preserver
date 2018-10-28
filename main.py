@@ -15,7 +15,7 @@ toRename.sort()
 currentNumber = 7
 currentLetter = 'A'
 for file in toRename:
-    separator = 'â€¢'
+    separator = u'•'
     nameParts = file.split(separator)
     prefix = nameParts[0]
     description = nameParts[1]
