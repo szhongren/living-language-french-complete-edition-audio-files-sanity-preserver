@@ -2,6 +2,9 @@ import os
 from mutagen import File
 from mutagen.mp3 import MP3
 from mutagen.id3 import ID3, TALB, TIT2, TCOM, TPE1, TPE2, TRCK
+'''
+first, rip all the CDs and put them into the same folder as mp3s
+'''
 
 filesDir = 'where you put all your files'
 toRename = []
